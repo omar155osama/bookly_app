@@ -1,3 +1,4 @@
+import 'package:clean_boookly/features/home/peresention/views/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -19,6 +20,18 @@ class _SplashScreenState extends State<SplashScreen>
     );
     _fadeAnimation = Tween(begin: 0.0, end: 1.0).animate(_animationController);
     _animationController.forward();
+
+    Future.delayed(const Duration(seconds: 2), () {
+      if (!mounted) return;
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) {
+            return HomeScreen();
+          },
+        ),
+      );
+    });
     super.initState();
   }
 
