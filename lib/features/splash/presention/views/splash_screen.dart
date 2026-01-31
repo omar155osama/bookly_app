@@ -1,4 +1,3 @@
-import 'package:clean_boookly/core/constant.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -32,7 +31,6 @@ class _SplashScreenState extends State<SplashScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: kPrimaryColor,
       body: FadeTransition(
         opacity: _fadeAnimation,
         child: Center(
