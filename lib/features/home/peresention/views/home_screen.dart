@@ -1,4 +1,5 @@
 import 'package:clean_boookly/features/home/peresention/views/widget/custom_app_bar.dart';
+import 'package:clean_boookly/features/home/peresention/views/widget/custom_card.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -9,7 +10,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        child: Column(children: [CustomAppBar()]),
+        child: Column(children: [CustomAppBar(), CustomCard()]),
       ),
     );
   }
