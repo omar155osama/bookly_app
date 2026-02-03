@@ -1,10 +1,8 @@
-import 'package:clean_boookly/features/home/peresention/views/widget/custom_card.dart';
+import 'package:clean_boookly/features/home/peresention/views/widget/custom_featured_card.dart';
 import 'package:flutter/material.dart';
 
 class FeaturedListCard extends StatelessWidget {
-  const FeaturedListCard({
-    super.key,
-  });
+  const FeaturedListCard({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,8 +13,8 @@ class FeaturedListCard extends StatelessWidget {
         itemCount: 20,
         itemBuilder: (context, n) {
           return Padding(
-            padding: EdgeInsetsGeometry.only(right: 8, left: 8),
-            child: CustomCard(),
+            padding: const EdgeInsets.only(right: 8),
+            child: const CustomFeaturedCard(),
           );
         },
       ),

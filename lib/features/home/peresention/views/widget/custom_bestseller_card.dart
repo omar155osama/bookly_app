@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class CustomCard extends StatelessWidget {
-  const CustomCard({super.key});
+class CustomBestsellerCard extends StatelessWidget {
+  const CustomBestsellerCard({super.key});
 
   @override
   Widget build(BuildContext context) {
     return AspectRatio(
-      aspectRatio: 3 / 5,
+      aspectRatio: 2.8 / 4,
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(16),
+          borderRadius: BorderRadius.circular(12),
           image: DecorationImage(
             fit: BoxFit.fill,
-            image: AssetImage("assets/book_cover.jpg"),
+            image: AssetImage("assets/image/book_cover.jpg"),
           ),
         ),
       ),

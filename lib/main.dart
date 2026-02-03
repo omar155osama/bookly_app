@@ -1,6 +1,7 @@
 import 'package:clean_boookly/core/constant.dart';
 import 'package:clean_boookly/features/splash/presention/views/splash_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(useMaterial3: false).copyWith(
         scaffoldBackgroundColor: kPrimaryColor,
+        textTheme: GoogleFonts.montserratTextTheme(ThemeData.dark().textTheme),
         splashFactory: NoSplash.splashFactory,
       ),
       home: SplashScreen(),

@@ -9,7 +9,7 @@ class CustomAppBar extends StatelessWidget {
     return SafeArea(
       child: Row(
         children: [
-          Image(height: 18, image: AssetImage("assets/Logo.png")),
+          Image(height: 18, image: AssetImage("assets/image/Logo.png")),
           const Spacer(),
           IconButton(
             onPressed: () {},
