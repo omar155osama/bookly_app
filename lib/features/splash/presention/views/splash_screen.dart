@@ -1,5 +1,6 @@
-import 'package:clean_boookly/features/home/peresention/views/home_screen.dart';
+import 'package:clean_boookly/core/app_router.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -23,14 +24,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     Future.delayed(const Duration(seconds: 2), () {
       if (!mounted) return;
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (context) {
-            return HomeScreen();
-          },
-        ),
-      );
+      GoRouter.of(context).pushReplacement(AppRouter.kHomeScreen);
     });
     super.initState();
   }

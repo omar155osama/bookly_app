@@ -15,22 +15,21 @@ class HomeScreen extends StatelessWidget {
           slivers: [
             SliverToBoxAdapter(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   CustomAppBar(),
                   FeaturedListCard(),
                   Padding(
                     padding: const EdgeInsets.only(top: 48, bottom: 12),
-                    child: const Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        Text("Best Seller", style: TextStyle(fontSize: 23)),
-                      ],
+                    child: const Text(
+                      "Best Seller",
+                      style: TextStyle(fontSize: 23),
                     ),
                   ),
-                  BestsellerListView(),
                 ],
               ),
             ),
+            BestsellerListView(),
           ],
         ),
       ),
