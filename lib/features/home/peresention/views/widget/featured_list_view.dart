@@ -13,7 +13,7 @@ class FeaturedListCard extends StatelessWidget {
         itemCount: 20,
         itemBuilder: (context, n) {
           return Padding(
-            padding: const EdgeInsets.only(right: 8),
+            padding: const EdgeInsets.only(right: 16),
             child: const CustomFeaturedCard(),
           );
         },

@@ -7,7 +7,7 @@ class CustomBestsellerCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       child: AspectRatio(
-        aspectRatio: 2.8 / 4,
+        aspectRatio: 3.3 / 5,
         child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12),

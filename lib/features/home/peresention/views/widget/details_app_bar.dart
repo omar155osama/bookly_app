@@ -1,10 +1,7 @@
-
 import 'package:flutter/material.dart';
 
 class DetailsAppBar extends StatelessWidget {
-  const DetailsAppBar({
-    super.key,
-  });
+  const DetailsAppBar({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +12,7 @@ class DetailsAppBar extends StatelessWidget {
           IconButton(onPressed: () {}, icon: Icon(Icons.close)),
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.shopping_cart_checkout_outlined),
+            icon: Icon(Icons.shopping_cart_outlined),
           ),
         ],
       ),
