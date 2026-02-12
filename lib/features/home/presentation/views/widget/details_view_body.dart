@@ -1,9 +1,9 @@
 import 'package:clean_boookly/core/Styles/styles.dart';
-import 'package:clean_boookly/features/home/peresention/views/widget/book_action.dart';
-import 'package:clean_boookly/features/home/peresention/views/widget/book_rating.dart';
-import 'package:clean_boookly/features/home/peresention/views/widget/custom_featured_card.dart';
-import 'package:clean_boookly/features/home/peresention/views/widget/details_app_bar.dart';
-import 'package:clean_boookly/features/home/peresention/views/widget/similar_book_list_view.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/book_action.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/book_rating.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/custom_featured_card.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/details_app_bar.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/similar_book_list_view.dart';
 import 'package:flutter/material.dart';
 
 class DetailsViewBody extends StatelessWidget {

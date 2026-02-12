@@ -1,6 +1,6 @@
-import 'package:clean_boookly/features/home/peresention/views/widget/bestseller_list_view.dart';
-import 'package:clean_boookly/features/home/peresention/views/widget/custom_app_bar.dart';
-import 'package:clean_boookly/features/home/peresention/views/widget/featured_list_view.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/bestseller_list_view.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/custom_app_bar.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/featured_list_view.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -18,6 +18,7 @@ class HomeScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   CustomAppBar(),
+                  const SizedBox(height: 8),
                   FeaturedListCard(),
                   Padding(
                     padding: const EdgeInsets.only(top: 48, bottom: 12),

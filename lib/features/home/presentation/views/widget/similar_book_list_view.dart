@@ -1,4 +1,4 @@
-import 'package:clean_boookly/features/home/peresention/views/widget/custom_bestseller_card.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/custom_bestseller_card.dart';
 import 'package:flutter/material.dart';
 
 class SimilarBookListView extends StatelessWidget {

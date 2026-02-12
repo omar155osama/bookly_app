@@ -1,8 +1,8 @@
 import 'package:clean_boookly/core/Styles/styles.dart';
 import 'package:clean_boookly/core/app_router.dart';
 import 'package:clean_boookly/core/constant.dart';
-import 'package:clean_boookly/features/home/peresention/views/widget/book_rating.dart';
-import 'package:clean_boookly/features/home/peresention/views/widget/custom_bestseller_card.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/book_rating.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/custom_bestseller_card.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -12,7 +12,9 @@ class BestsellerListViewItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-       onTap: (){GoRouter.of(context).push(AppRouter.kDetailsScreen);},
+      onTap: () {
+        GoRouter.of(context).push(AppRouter.kDetailsScreen);
+      },
       child: InkWell(
         child: SizedBox(
           height: 120,
@@ -29,7 +31,9 @@ class BestsellerListViewItem extends StatelessWidget {
                       "Harry poter and the goblet of fire",
                       overflow: TextOverflow.ellipsis,
                       maxLines: 2,
-                      style: Styles.textstyle20.copyWith(fontFamily: kGtSectraFine),
+                      style: Styles.textstyle20.copyWith(
+                        fontFamily: kGtSectraFine,
+                      ),
                     ),
                     const SizedBox(height: 3),
                     Text("J.K Rowlling", style: Styles.textstyle14),

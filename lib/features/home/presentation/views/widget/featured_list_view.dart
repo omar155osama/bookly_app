@@ -1,4 +1,4 @@
-import 'package:clean_boookly/features/home/peresention/views/widget/custom_featured_card.dart';
+import 'package:clean_boookly/features/home/presentation/views/widget/custom_featured_card.dart';
 import 'package:flutter/material.dart';
 
 class FeaturedListCard extends StatelessWidget {

@@ -33,7 +33,7 @@ class BookAction extends StatelessWidget {
           style: Styles.textstyle18.copyWith(
             color: textColor,
             fontWeight: FontWeight.w900,
-            fontSize: fontsize
+            fontSize: fontsize,
           ),
         ),
       ),
