@@ -1,4 +1,4 @@
-import 'package:clean_boookly/core/constant.dart';
+import 'package:clean_boookly/core/utils/constant.dart';
 import 'package:flutter/material.dart';
 
 abstract class Styles {

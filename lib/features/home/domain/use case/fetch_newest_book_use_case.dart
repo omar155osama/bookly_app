@@ -1,4 +1,4 @@
-import 'package:clean_boookly/core/failure.dart';
+import 'package:clean_boookly/core/utils/failure.dart';
 import 'package:clean_boookly/features/home/domain/repo/home_repo.dart';
 import 'package:dartz/dartz.dart';
 

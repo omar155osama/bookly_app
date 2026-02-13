@@ -1,6 +1,6 @@
 import 'package:clean_boookly/core/Styles/styles.dart';
-import 'package:clean_boookly/core/app_router.dart';
-import 'package:clean_boookly/core/constant.dart';
+import 'package:clean_boookly/core/utils/app_router.dart';
+import 'package:clean_boookly/core/utils/constant.dart';
 import 'package:clean_boookly/features/home/presentation/views/widget/book_rating.dart';
 import 'package:clean_boookly/features/home/presentation/views/widget/custom_bestseller_card.dart';
 import 'package:flutter/material.dart';

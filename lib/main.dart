@@ -1,5 +1,5 @@
-import 'package:clean_boookly/core/app_router.dart';
-import 'package:clean_boookly/core/constant.dart';
+import 'package:clean_boookly/core/utils/app_router.dart';
+import 'package:clean_boookly/core/utils/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
